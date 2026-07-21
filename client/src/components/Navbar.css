@@ -1,16 +1,29 @@
-nav {
-  background-color: #1976d2;
-  padding: 15px;
+.navbar {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d6efd;
+  padding: 15px 40px;
 }
 
-nav a {
+.navbar h2 {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
   color: white;
   text-decoration: none;
+  font-size: 16px;
   font-weight: 500;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.nav-links a:hover {
+  color: #ffd43b;
 }
